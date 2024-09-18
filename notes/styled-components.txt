@@ -1,0 +1,25 @@
+Using the Styled Components library
+Styled Components — это библиотека CSS-in-JS, которая стилизует компоненты React Native с помощью простого CSS. При таком подходе вам не нужно определять классы стилей через объекты и предоставлять свойства стилей. Сам CSS определяется через помеченные литералы шаблонов, предоставляемые styled-components.
+https://styled-components.com/
+npm install --save styled-components
+
+import styled from "styled-components/native";
+const Box = styled.View'
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+';
+const BoxText = styled.Text'
+  color: darkslategray;
+  font-weight: bold;
+';
+
+const App = () => {
+  return (
+    <Box>
+      <BoxText>I'm in a box</BoxText>
+    </Box>
+  );
+};

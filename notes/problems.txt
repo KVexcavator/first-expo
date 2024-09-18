@@ -1,0 +1,8 @@
+Обновление зависимостей
+sudo npm install react@latest react-dom@latest react-native@latest --save
+npm outdated
+npm update
+npm start
+npm audit fix
+npm audit fix --force
+------------------------------------------------------
