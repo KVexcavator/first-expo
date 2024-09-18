@@ -1,11 +1,13 @@
+import { BorderStyle } from './node_modules/lightningcss/node/ast.d';
 import { Platform, StyleSheet, StatusBar } from "react-native";
 
 export default StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
     backgroundColor: "ghostwhite",
+    alignItems: "center",
     ...Platform.select({
       ios: { paddingTop: 20 },
       android: { paddingTop: StatusBar.currentHeight },
@@ -13,11 +15,15 @@ export default StyleSheet.create({
   },
 
   box: {
-    width: 100,
     height: 100,
+    width: 100,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "lightgray",
+    borderWidth: 1,
+    borderStyle: "dashed",
+    borderColor: "darkslategray",
+    margin: 10,
   },
 
   boxText: {
