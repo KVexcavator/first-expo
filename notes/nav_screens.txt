@@ -1,0 +1,10 @@
+https://github.com/PacktPublishing/React-and-React-Native-5E/tree/main/Chapter19
+•The basics of navigation
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+•Route parameters
+•The navigation header
+•Tab and drawer navigation
+•File-based navigation
+==============================================

@@ -31,7 +31,7 @@ watchman watch-list
 coздать проект с выбором шаблона
 npx create-expo-app --template
 ....
-npx start
+npm start
 ----------------------------------------------------------------
 для разработкм в сервисе Expo Snack
 https://snack.expo.dev/

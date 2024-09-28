@@ -6,3 +6,7 @@ npm start
 npm audit fix
 npm audit fix --force
 ------------------------------------------------------
+import { StatusBar } from "react-native"
+<StatusBar hidden={false}/>
+https://www.npmjs.com/package/expo-status-bar
+https://reactnative.dev/docs/statusbar?language=javascript
