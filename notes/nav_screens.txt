@@ -6,6 +6,11 @@ npm install @react-navigation/native-stack
 •Route parameters
 Details: { title: string }
 •The navigation header
+set options
+navigation.setOptions({ title })
+get options
+<Stack.Screen
+  options={({ route }) => ({ ..use options
 •Tab and drawer navigation
 •File-based navigation
 ==============================================
