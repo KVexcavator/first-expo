@@ -1,0 +1,4 @@
+https://github.com/PacktPublishing/React-and-React-Native-5E/tree/main/Chapter19/tab-navigation
+=========================================================
+npm install @react-navigation/bottom-tabs @react-navigation/drawer
+npx expo install react-native-gesture-handler react-native-reanimated
